@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Member Linggau Mixed Martial Arts</title>
+</head>
+<body>
+    <form action="succes.html">
+        <fieldset>
+            <legend>Formulir Pendaftaran Member Linggau Mixed Martial Arts</legend>
+            <br>
+            <table align="center" cellspacing="5px" cellpadding="5px" bgcolor="#dedede">
+                <th colspan="2">LINGGAU MIXED MARTIAL ARTS</th>
+
+                <tr>
+                    <td colspan="2">Nama : 
+                        <input type="text" size="50">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Jenis Kelamin :</td>
+                    <td><input type ="radio" name ="jenis_kelamin" value="perempuan"> Perempuan
+                        <input type ="radio" name ="jenis_kelamin" value="laki-laki"> Laki-laki</td>
+                </tr>
+
+                <tr>
+                    <td>Umur (Tahun) :</td>
+                    <td><input type="number" name="umur" min="2" max="70"></td>
+                </tr>
+
+                <tr>
+                    <td>Tanggal lahir :</td>
+                    <td><input type="date" name="Tanggal_lahir"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Hobi :
+                        <input type="text" size="50">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Alamat :</td>
+                    <td><textarea name="alamat" cols="30" rows="4"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Kategori Member :</td>
+                    <td>
+                        <select name="member" size="1">
+                            <option value="1">1 Bulan</option>
+                            <option value="2">3 Bulan</option>
+                            <option value="3">5 Bulan</option>
+                            <option value="4">1 Tahun</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Jenis bela diri yang dipilih :</td>
+                    <td>
+                        <input type="checkbox" name="beladiri" value="muay_thai">Muay Thai
+                        <br><input type="checkbox" name="beladiri" value="boxing">Boxing
+                        <br><input type="checkbox" name="beladiri" value="bjj">Brazilian Jiu Jitsu
+                        <br><input type="checkbox" name="beladiri" value="aikido">Aikido
+                        <br><input type="checkbox" name="beladiri" value="kick_boxing">Kick Boxing
+                        <br><input type="checkbox" name="beladiri" value="mma">Mixed Martial Arts
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Riwayat penyakit (jika ada) :</td>
+                    <td><textarea name="Beladiri_lebih" cols="30" rows="4"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><input type="reset" value="Hapus data" name=reset></td>
+                    <td align="center"><input type="submit" value="Kirim data" name=submit></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
